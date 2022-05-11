@@ -1,20 +1,19 @@
 import model.Buffer;
 import model.Damager;
 import model.Healer;
+import model.Personaj;
+import model.Tank;
+import model.ShilienKnight;
 
 public class Main {
 
     public static void main(String[] args) {
-        Buffer warc = new Buffer("Персонаж", "Варк");
-        warc.say("Tadelius");
-//        warc.tell();
 
-        Healer ee = new Healer("Персонаж", "ЕЕшка");
-        ee.say("Sorcus");
-//        ee.tell();
+        Personaj personaj = new ShilienKnight();
+        System.out.println((personaj).sad());
 
-        Damager hawk = new Damager("Персонаж", "Хавкай");
-        hawk.say("ZeZee");
-//        hawk.tell();
+
+
+
     }
 }

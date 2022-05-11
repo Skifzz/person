@@ -2,7 +2,7 @@ package model;
 
 public class Healer extends Personaj{
     public String heal = "x3";
-    void tell () {
+    public void tell () {
         System.out.println(super.pers);
         System.out.println(heal);
     }
