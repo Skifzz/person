@@ -1,13 +1,11 @@
 package model;
 
 public class Buffer extends Personaj {
-    public String buff = "x3";
-    public void tell () {
-        System.out.println(super.pers);
+    public String buff = "Бафер - ";
+
+    public void say(){
+        System.out.print(super.pers);
         System.out.println(buff);
     }
-    public Buffer (String pers, String buff) {
-        super(pers);
-        this.buff = buff;
-    }
+
 }

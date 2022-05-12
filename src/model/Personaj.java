@@ -4,16 +4,14 @@ package model;
 public class Personaj {
 
 
-    public String pers = "Персонаж";
-
-
-    public String sad() {
-
-        System.out.println(ShilienKnight);
-
-        return null;
+    public String pers = "Персонаж - ";
+    public void say(){
+        System.out.println(pers);
     }
 
-    public Personaj (String pers) {}
+        public void allsay(String dd, String ss){
+
+        }
+
 
 }

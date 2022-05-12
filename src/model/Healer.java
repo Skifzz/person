@@ -1,14 +1,19 @@
 package model;
 
 public class Healer extends Personaj{
-    public String heal = "x3";
-    public void tell () {
-        System.out.println(super.pers);
+    public String heal = "Хилер - ";
+
+    public void say(){
+        System.out.print(super.pers);
         System.out.println(heal);
     }
-    public Healer (String pers, String heal) {
-        super(pers);
-        this.heal = heal;
-    }
+
+
+
+
+
+
+
+
 }
 
