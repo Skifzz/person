@@ -8,7 +8,7 @@ public class GraficIterface extends JFrame {
 
         private JButton button = new JButton("Start");
         private JTextField field = new JTextField("", 5);
-        private JLabel label = new JLabel("ввод");
+        private JLabel label = new JLabel("Enter the name");
         public GraficIterface (){
             super("Party Info");
             this.setBounds(100, 100, 250, 100);
@@ -27,7 +27,7 @@ public class GraficIterface extends JFrame {
             public void actionPerformed (ActionEvent e){
                 String message = "";
                 message += "Вы ввели - " + field.getText() + "\n";
-                message += "Вы - " + field.getText();
+                message +=  "Вы - " + field.getText();
                 JOptionPane.showMessageDialog(null, message, "Output", JOptionPane.PLAIN_MESSAGE);
 
             }

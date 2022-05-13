@@ -1,7 +1,7 @@
 import model.*;
 import model.Profession.*;
 
-import javax.swing.*;
+
 
 
 public class Main {
