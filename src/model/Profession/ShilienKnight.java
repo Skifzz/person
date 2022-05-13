@@ -1,8 +1,10 @@
-package model;
+package model.Profession;
+
+import model.Tank;
 
 import java.security.PublicKey;
 
-public class ShilienKnight extends Tank{
+public class ShilienKnight extends Tank {
 
     public String sk = "ШК";
     public void say(){

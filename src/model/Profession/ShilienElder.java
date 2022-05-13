@@ -1,6 +1,8 @@
-package model;
+package model.Profession;
 
-public class ShilienElder extends Healer{
+import model.Healer;
+
+public class ShilienElder extends Healer {
     public String she = "ШиленЕлдер";
 
     @Override

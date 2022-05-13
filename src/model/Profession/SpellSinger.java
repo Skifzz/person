@@ -1,6 +1,8 @@
-package model;
+package model.Profession;
 
-public class SpellSinger extends Range{
+import model.Range;
+
+public class SpellSinger extends Range {
     public String ss = "СпелСингер";
 
     @Override
