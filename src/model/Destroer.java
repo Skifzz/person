@@ -5,6 +5,6 @@ public class Destroer extends Mili{
 
     @Override
     public String sayAll() {
-        return super.sayAll();
+        return super.sayAll()+destr;
     }
 }

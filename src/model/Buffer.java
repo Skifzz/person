@@ -3,9 +3,11 @@ package model;
 public class Buffer extends Personaj {
     public String buff = "Бафер - ";
 
-    public void say(){
-        System.out.print(super.pers);
-        System.out.println(buff);
+    @Override
+    public String sayAll() {
+        return super.sayAll()+buff;
     }
+
+
 
 }
