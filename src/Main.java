@@ -4,15 +4,22 @@ public class Main {
 
     public static void main(String[] args) {
 
-        //Personaj personaj = new ShilienKnight();
-        //System.out.println((personaj).sad1());
-        ShilienKnight shilienKnight = new ShilienKnight();
+
+        Personaj shilienKnight = new ShilienKnight();
         shilienKnight.say();
 
-        SpellSinger spellSinger = new SpellSinger();
+        Personaj spellSinger = new SpellSinger();
         spellSinger.say();
 
-        Destroer destroer = new Destroer();
+        Personaj destroer = new Destroer();
         destroer.say();
+
+
+
+        Info info1 = new ShilienKnight();
+        System.out.println(info1.sayAll());
+
+
     }
+
 }

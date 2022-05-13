@@ -9,9 +9,9 @@ public class Tank extends Personaj{
         System.out.println(tank);
     }
 
-
-
-
-
+    @Override
+    public String sayAll() {
+        return super.sayAll()+tank;
+    }
 }
 

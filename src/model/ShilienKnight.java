@@ -11,6 +11,8 @@ public class ShilienKnight extends Tank{
         System.out.println(sk);
     }
 
-
-
+    @Override
+    public String sayAll() {
+        return super.sayAll()+sk;
+    }
 }

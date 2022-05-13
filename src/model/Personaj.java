@@ -1,17 +1,15 @@
 package model;
 
 
-public class Personaj {
+public class Personaj implements Info {
 
 
     public String pers = "Персонаж - ";
-    public void say(){
-        System.out.println(pers);
+
+
+
+    @Override
+    public String sayAll() {
+        return pers;
     }
-
-        public void allsay(String dd, String ss){
-
-        }
-
-
 }
