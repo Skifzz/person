@@ -1,11 +1,13 @@
 package model;
 
 
+import model.Profession.Warcraer;
+
 public class Personaj implements Info {
 
 
-    public String pers = "Персонаж - ";
-
+    public String pers = "Я персонаж - ";
+    public String name;
     @Override
     public String sayAll() {
         return pers;
@@ -13,6 +15,6 @@ public class Personaj implements Info {
 
     @Override
     public String sayName() {
-        return null;
+        return name;
     }
 }
