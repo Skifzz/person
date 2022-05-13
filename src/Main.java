@@ -1,8 +1,5 @@
 import model.*;
-import model.Profession.Destroer;
-import model.Profession.ShilienElder;
-import model.Profession.ShilienKnight;
-import model.Profession.SpellSinger;
+import model.Profession.*;
 
 public class Main {
 
@@ -13,6 +10,8 @@ public class Main {
         Info infoshk = new ShilienKnight();
         Info infodestr = new Destroer();
         Info infoshe = new ShilienElder();
+        Info infowarc = new Warcraer();
+        System.out.println(infowarc.sayName());
         System.out.println(infoshe.sayAll());
         System.out.println(infoss.sayAll());
         System.out.println(infoshk.sayAll());

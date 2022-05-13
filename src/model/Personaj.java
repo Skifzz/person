@@ -10,4 +10,9 @@ public class Personaj implements Info {
     public String sayAll() {
         return pers;
     }
+
+    @Override
+    public String sayName() {
+        return null;
+    }
 }

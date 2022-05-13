@@ -2,7 +2,8 @@ package model;
 
 public interface Info {
 
-    public String sayAll();
+     String sayAll();
 
 
+     String sayName();
 }
