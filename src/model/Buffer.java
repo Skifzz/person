@@ -1,7 +1,7 @@
 package model;
 
 public class Buffer extends Personaj {
-    public String buff = "Бафер - ";
+    public String buff = "Бафер" + "\n";
 
     @Override
     public String sayAll() {

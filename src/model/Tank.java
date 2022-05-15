@@ -3,7 +3,7 @@ package model;
 
 public class Tank extends Personaj{
 
-    public String tank = "Танк - ";
+    public String tank = "Танк" + "\n";
 
 
     @Override
