@@ -56,13 +56,14 @@ public class GraficIterface extends JFrame {
                 shilienKnight.setSk();
                 ShilienElder shilienElder = new ShilienElder();
                 shilienElder.setShe();
-                String message = "Name is: " + field.getText() + " \n";
+                String name = field.getText();
+                String message = "Name is: " + name +" \n";
                 message += "You choosed: " +
-                        (Destr.isSelected() ? "Destroer" : "")  +
-                        (SS.isSelected() ? "Spell Singer" : "") +
-                        (Warc.isSelected() ? "Warcraer" : "") +
-                        (SHK.isSelected() ? "Shilie Knight" : "") +
-                        (SHE.isSelected() ? "Shilien Elder" : "") +
+                        (Destr.isSelected() ? Destr.getText() : "")  +
+                        (SS.isSelected() ? SS.getText() : "") +
+                        (Warc.isSelected() ? Warc.getText() : "") +
+                        (SHK.isSelected() ? SHK.getText() : "") +
+                        (SHE.isSelected() ? SHE.getText() : "") +
                         " \n";
 
                 message += (Destr.isSelected() ? destroer.getDestr() : "");

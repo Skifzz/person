@@ -3,7 +3,7 @@ package model.Profession;
 import model.Healer;
 
 public class ShilienElder extends Healer {
-    public String she = "Шилен Елдер" + "\n";
+    public String she = "Шилен Элдер" + "\n";
 
     @Override
     public String sayAll() {
